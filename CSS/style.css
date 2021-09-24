@@ -1,3 +1,27 @@
 body{
+    background-color: #E5E5E5;
     font-family: 'Oswald', sans-serif;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(../img/first-screen.png);
+    background-repeat: no-repeat;
+    height: 740px;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.title_text{
+    color: white;
+    margin: 0 auto;
+}
+.title_text h1{
+    font-size: 64px;
+    text-shadow:black 0 0 1px;
+    letter-spacing: 5px;
+}
+.title_text p{
+    font-size: 18px;
 }
