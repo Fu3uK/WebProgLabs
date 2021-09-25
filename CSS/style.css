@@ -3,15 +3,19 @@ body{
 }
 h1{
     font-size: 64px;
+    font-weight: normal;
 }
 h2{
     font-size: 48px;
+    font-weight: normal;
 }
 h3{
     font-size: 24px;
+    font-weight: normal;
 }
 h4{
     font-size: 18px;
+    font-weight: normal;
 }
 p{
     font-size: 18px;
@@ -24,16 +28,21 @@ a{
     text-transform: uppercase;
     background-image: url(../img/first-screen.png);
     background-repeat: no-repeat;
-    height: 740px;
     background-position: center;
     background-size: cover;
-    padding: 50px 0;
+    padding: 50px 0 350px 0;
 }
 .title .wrapper{
     padding-top: 150px;
 }
 .white{
     color: white;
+}
+.orange{
+    color:#F7654A;
+}
+.grey{
+    color: gray;
 }
 .text-stroke{
     text-shadow:black 0 0 4px;
@@ -51,6 +60,7 @@ a{
     letter-spacing: 0px;
 }
 .title_days{
+    
     background-color: #F7F7F7;
     margin: -156px auto 0;  
 }
@@ -65,14 +75,17 @@ a{
     margin: 0;
     color: #F7654A;
     font-size: 72px;
+    font-weight: 500;
 }
 .td_item h3{
     color: black;
     font-size: 36px;
+    font-weight: 500;
 }
 .td_item p{
     color: grey;
     padding-bottom: 30px;
+    font-weight: 500;
 }
 .holydays{
     padding-top: 100px;
@@ -137,4 +150,60 @@ a{
 }
 .hell-item img{
     padding-top: 54px;
+}
+.Pictures{
+    padding-top: 100px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, 480px);
+    grid-template-rows: repeat(2, 407px);
+}
+.Pic-item img{
+    opacity: 0.5;
+}
+.Pic-item img:hover{
+    opacity: 1;
+}
+.shadow{
+    margin: -408px auto 0;
+    background-color: #404149;
+    width: 480px;
+    height: 407px;
+}
+.reviews{
+    padding-top: 100px;
+}
+.reviews h2{
+    text-transform: uppercase;
+}
+.rev-flex{
+    display: flex;
+    gap: 30px;
+    text-align: left;
+}
+.rev-text{
+    background-color: #f7f7f7;
+    padding: 20px 30px;
+    color: gray;
+}
+.contacts{
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+.contact-flex{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.footer{
+    background-color: #404149;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer-item:nth-child(2){
+    display: flex;
+    gap: 5px;
 }
